@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="taglibs-standard-spec-1.2.5">
+    <CLASSES>
+      <root url="jar://D:/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="jar://D:/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="file://D:/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/DOWNLOAD/apache-tomcat-10.0.0-M1/apache-tomcat-10.0.0-M1/webapps/docs/appdev/sample/src" />
+      <root url="file://D:/DOWNLOAD/apache-tomcat-10.0.0-M1/apache-tomcat-10.0.0-M1/webapps/examples/WEB-INF/classes" />
+      <root url="file://D:/DOWNLOAD/apache-tomcat-10.0.0-M1/apache-tomcat-10.0.0-M1/webapps/examples/WEB-INF/jsp/applet" />
+      <root url="file://D:/DOWNLOAD/apache-tomcat-10.0.0-M1/apache-tomcat-10.0.0-M1/webapps/examples/jsp/plugin/applet" />
+      <root url="file://D:/DOWNLOAD/apache-tomcat-9.0.31/apache-tomcat-9.0.31/webapps/docs/appdev/sample/src" />
+      <root url="file://D:/DOWNLOAD/apache-tomcat-9.0.31/apache-tomcat-9.0.31/webapps/examples/WEB-INF/classes" />
+      <root url="file://D:/DOWNLOAD/apache-tomcat-9.0.31/apache-tomcat-9.0.31/webapps/examples/WEB-INF/jsp/applet" />
+      <root url="file://D:/DOWNLOAD/apache-tomcat-9.0.31/apache-tomcat-9.0.31/webapps/examples/jsp/plugin/applet" />
+      <root url="file://D:/DOWNLOAD/demo/src" />
+      <root url="file://D:/DOWNLOAD/java-web-servlet-life-cycle-master/java-web-servlet-life-cycle-master/src" />
+    </SOURCES>
+    <jarDirectory url="file://D:/" recursive="false" />
+  </library>
+</component>
