@@ -2,15 +2,25 @@ package model;
 
 public class Student {
     private int id;
+    private String code;
     private String name;
     private String gender;
     private String address;
 
-    public Student(int id, String name, String gender, String address) {
+    public Student(int id,String code, String name, String gender, String address) {
         this.id = id;
+        this.code=code;
         this.name = name;
         this.gender = gender;
         this.address = address;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
     }
 
     public int getId() {

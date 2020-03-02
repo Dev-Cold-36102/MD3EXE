@@ -23,6 +23,10 @@
         <legend>student information</legend>
         <table>
             <tr>
+                <td>Code: </td>
+                <td>${requestScope["student"].getCode()}</td>
+            </tr>
+            <tr>
                 <td>Name: </td>
                 <td>${requestScope["student"].getName()}</td>
             </tr>

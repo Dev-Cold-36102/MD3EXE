@@ -65,9 +65,10 @@ public class StudentServlet extends HttpServlet {
         String name = request.getParameter("name");
         String gender = request.getParameter("gender");
         String address = request.getParameter("address");
-        String id = request.getParameter("id");
+        int id = (int)(Math.random() * 100);
+        String code=request.getParameter("code");
 
-        Student student = new Student(Integer.parseInt(id), name, gender, address);
+        Student student = new Student(id,code, name, gender, address);
         this.studentService.saveInfor(student);
         RequestDispatcher dispatcher = request.getRequestDispatcher("student/createStudent.jsp");
         request.setAttribute("message", "Done!");
@@ -136,6 +137,7 @@ public class StudentServlet extends HttpServlet {
 
     private void updateStudent(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
+        String code=request.getParameter("code");
         String name = request.getParameter("name");
         String gender = request.getParameter("gender");
         String address = request.getParameter("address");
@@ -144,6 +146,7 @@ public class StudentServlet extends HttpServlet {
         if (student == null) {
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
+            student.setCode(code);
             student.setName(name);
             student.setGender(gender);
             student.setAddress(address);

@@ -27,7 +27,7 @@
         <table>
             <tr>
                 <td>Id: </td>
-                <td><input type="text" name="id" id="id" value="${requestScope["student"].getId()}"></td>
+                <td><input type="text" name="code" id="code" value="${requestScope["student"].getCode()}"></td>
             </tr>
             <tr>
                 <td>Name: </td>

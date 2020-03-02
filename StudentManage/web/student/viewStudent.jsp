@@ -19,8 +19,8 @@
 </p>
 <table>
     <tr>
-        <td>Id: </td>
-        <td>${requestScope["student"].getId()}</td>
+        <td>Code: </td>
+        <td>${requestScope["student"].getCode()}</td>
     </tr>
     <tr>
         <td>Name: </td>

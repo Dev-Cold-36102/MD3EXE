@@ -13,11 +13,11 @@ public class StudentService implements StudentServiceInterface {
 
     static {
         studentMap = new HashMap<>();
-        studentMap.put(1, new Student(1, "khai", "male", "bac ninh"));
-        studentMap.put(2, new Student(2, "nhat", "female", "binh dinh"));
-        studentMap.put(3, new Student(3, "hoang", "male", "hung yen"));
-        studentMap.put(4, new Student(4, "nam", "female", "hanoi"));
-        studentMap.put(5, new Student(5, "tien", "male", "thanh hoa"));
+        studentMap.put(1, new Student(1,"HV01", "khai", "male", "bac ninh"));
+        studentMap.put(2, new Student(2,"HV02", "nhat", "female", "binh dinh"));
+        studentMap.put(3, new Student(3,"HV03", "hoang", "male", "hung yen"));
+        studentMap.put(4, new Student(4, "HV04","nam", "female", "hanoi"));
+        studentMap.put(5, new Student(5, "HV05","tien", "male", "thanh hoa"));
     }
 
 
