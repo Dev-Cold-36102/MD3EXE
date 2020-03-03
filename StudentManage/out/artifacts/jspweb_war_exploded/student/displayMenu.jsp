@@ -16,8 +16,11 @@
             color: blue;
         }
         td a{
-            text-align: center;
+
             text-decoration: none;
+        }
+        td{
+            text-align: center;
         }
     </style>
 </head>
