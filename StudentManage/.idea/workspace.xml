@@ -6,7 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb23bd99-1d4a-4158-9d83-b7ff3592d217" name="Default Changelist" comment="" />
+    <list default="true" id="eb23bd99-1d4a-4158-9d83-b7ff3592d217" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/WEB-INF/classes/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/WEB-INF/classes/controller/StudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/WEB-INF/classes/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/WEB-INF/classes/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/WEB-INF/classes/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/WEB-INF/classes/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/createStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/createStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/deleteStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/deleteStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/displayMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/displayMenu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/editStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/editStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/viewStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/viewStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jspweb/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jspweb/controller/StudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jspweb/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jspweb/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jspweb/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jspweb/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/student/displayMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/student/displayMenu.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +51,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1YZ6ZVnkbOzrZjDWfjokUGxp5VE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -166,11 +181,25 @@
       <updated>1583137824849</updated>
       <workItem from="1583137827645" duration="8233000" />
       <workItem from="1583146276576" duration="336000" />
+      <workItem from="1583161250146" duration="806000" />
+      <workItem from="1583197747406" duration="144000" />
     </task>
+    <task id="LOCAL-00001" summary="add file">
+      <created>1583161409173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161409173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="94" key="#Project_Structure" timestamp="1583137874754">
@@ -189,76 +218,73 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="883" y="182" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1583144257326" />
+    <state x="778" y="28" key="CommitChangelistDialog2" timestamp="1583161407329">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="778" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1583161407329" />
     <state x="884" y="151" key="DetectedRootsChooserDialog" timestamp="1583137865574">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="884" y="151" key="DetectedRootsChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1583137865574" />
-    <state x="834" y="177" key="FileChooserDialogImpl" timestamp="1583137850427">
+    <state x="834" y="177" key="FileChooserDialogImpl" timestamp="1583197850818">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="834" y="177" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583137850427" />
-    <state width="1024" height="225" key="GridCell.Tab.0.bottom" timestamp="1583145669109">
+    <state x="834" y="177" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583197850818" />
+    <state width="486" height="222" key="GridCell.Tab.0.bottom" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583145669109" />
-    <state width="1024" height="225" key="GridCell.Tab.0.center" timestamp="1583145669109">
+    <state width="486" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.0.center" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583145669109" />
-    <state width="1024" height="225" key="GridCell.Tab.0.left" timestamp="1583145669109">
+    <state width="486" height="222" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.0.left" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583145669109" />
-    <state width="1024" height="225" key="GridCell.Tab.0.right" timestamp="1583145669109">
+    <state width="486" height="222" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.0.right" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583145669109" />
-    <state width="1024" height="225" key="GridCell.Tab.1.bottom" timestamp="1583145669110">
+    <state width="486" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.1.bottom" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583145669110" />
-    <state width="1024" height="225" key="GridCell.Tab.1.center" timestamp="1583145669110">
+    <state width="486" height="222" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.1.center" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1583145669110" />
-    <state width="1024" height="225" key="GridCell.Tab.1.left" timestamp="1583145669110">
+    <state width="486" height="222" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.1.left" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1583145669110" />
-    <state width="1024" height="225" key="GridCell.Tab.1.right" timestamp="1583145669110">
+    <state width="486" height="222" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.1.right" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1583145669110" />
-    <state width="1024" height="225" key="GridCell.Tab.2.bottom" timestamp="1583145669110">
+    <state width="486" height="222" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.2.bottom" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583145669110" />
-    <state width="1024" height="225" key="GridCell.Tab.2.center" timestamp="1583145669110">
+    <state width="486" height="222" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.2.center" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1583145669110" />
-    <state width="1024" height="225" key="GridCell.Tab.2.left" timestamp="1583145669110">
+    <state width="486" height="222" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.2.left" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1583145669110" />
-    <state width="1024" height="225" key="GridCell.Tab.2.right" timestamp="1583145669110">
+    <state width="486" height="222" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state width="486" height="222" key="GridCell.Tab.2.right" timestamp="1583197891672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1583145669110" />
+    <state width="486" height="222" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1583197891672" />
+    <state x="722" y="168" key="Vcs.Push.Dialog.v2" timestamp="1583161414885">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="722" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1583161414885" />
     <state x="895" y="64" key="refactoring.ChangeSignatureDialog" timestamp="1583143579431">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="895" y="64" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1583143579431" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/StudentServlet.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

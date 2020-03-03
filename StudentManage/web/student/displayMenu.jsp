@@ -15,7 +15,7 @@
         .tr{
             color: blue;
         }
-        tr{
+        td a{
             text-align: center;
             text-decoration: none;
         }
