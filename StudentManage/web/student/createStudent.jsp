@@ -21,7 +21,7 @@
 <h1>Create new student</h1>
 <p>
     <c:if test='${requestScope["message"] != null}'>
-        <span class="message">${requestScope["message"]}</span>
+        <span style="color: blue" class="message">${requestScope["message"]}</span>
     </c:if>
 </p>
 <p>

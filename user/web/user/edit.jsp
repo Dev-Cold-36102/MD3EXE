@@ -26,6 +26,11 @@
     <h2>
         <a href="users?action=users">List All Users</a>
     </h2>
+    <p>
+        <c:if test='${requestScope["message"] != null}'>
+            <span style="color: blue" class="message">${requestScope["message"]}</span>
+        </c:if>
+    </p>
 <div align="center">
     <form method="post">
         <table border="10" cellpadding="5">

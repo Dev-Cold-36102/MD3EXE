@@ -111,6 +111,8 @@ public class UserServlet extends HttpServlet {
 
         User book = new User(id, name, email, country);
         userDAO.updateUser(book);
+        request.setAttribute("message", "Done!");
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("user/edit.jsp");
         dispatcher.forward(request, response);
     }
@@ -118,6 +120,8 @@ public class UserServlet extends HttpServlet {
             throws SQLException, IOException, ServletException {
         int id = Integer.parseInt(request.getParameter("id"));
         userDAO.deleteUser(id);
+        request.setAttribute("message", "Done!");
+
 
         List<User> listUser = userDAO.selectAllUsers();
         request.setAttribute("listUser", listUser);

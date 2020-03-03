@@ -27,6 +27,11 @@
     <h2 >
         <a href="/users?action=create" >Add New User</a>
     </h2>
+    <p>
+        <c:if test='${requestScope["message"] != null}'>
+            <span style="color: red" class="message">${requestScope["message"]}</span>
+        </c:if>
+    </p>
 <div align="center">
     <table border="1" cellpadding="5">
         <caption><h2>List of Users</h2></caption>
