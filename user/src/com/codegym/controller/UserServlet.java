@@ -92,9 +92,14 @@ public class UserServlet extends HttpServlet {
         String name = request.getParameter("name");
         String email = request.getParameter("email");
         String country = request.getParameter("country");
-        User newUser = new User(name, email, country);
-        userDAO.insertUser(newUser);
         RequestDispatcher dispatcher = request.getRequestDispatcher("user/create.jsp");
+        if (name.equals(String.valueOf(""))||email.equals(String.valueOf(""))||country.equals(String.valueOf(""))){
+            System.out.println("no input");
+        } else {
+            User newUser = new User(name, email, country);
+            userDAO.insertUser(newUser);
+            request.setAttribute("message", "Done!");
+        }
         dispatcher.forward(request, response);
     }
     private void updateUser(HttpServletRequest request, HttpServletResponse response)

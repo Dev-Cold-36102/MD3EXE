@@ -7,27 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb23bd99-1d4a-4158-9d83-b7ff3592d217" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../user/src/com/codegym/controller/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/src/com/codegym/dao/IUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/src/com/codegym/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/src/com/codegym/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/user/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/web/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/web/user/checkNull.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/WEB-INF/classes/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/WEB-INF/classes/controller/StudentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/displayMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jspweb_war_exploded/student/displayMenu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jspweb/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jspweb/controller/StudentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/student/displayMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/student/displayMenu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/web/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../user/web/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/web/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../user/web/user/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,11 +148,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -193,6 +171,7 @@
       <workItem from="1583197747406" duration="144000" />
       <workItem from="1583198037350" duration="2584000" />
       <workItem from="1583225268875" duration="702000" />
+      <workItem from="1583247333696" duration="666000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1583161409173</created>
@@ -219,10 +198,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="94" key="#Project_Structure" timestamp="1583137874754">
+    <state x="181" y="21" key="#Project_Structure" timestamp="1583247779369">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="722" y="94" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1583137874754" />
+    <state x="181" y="21" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1583247779369" />
     <state x="447" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583142231077">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -25,6 +25,11 @@
 <h2>
     <a href="/users?action=view">list users</a>
 </h2>
+<p>
+    <c:if test='${requestScope["message"] != null}'>
+        <span style="color: red" class="message">${requestScope["message"]}</span>
+    </c:if>
+</p>
 <div align="center">
     <form method="post">
         <table border="1" cellpadding="5">
@@ -51,11 +56,21 @@
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <input type="submit" value="Save"/>
+                    <input onclick="checkNull()" type="submit" value="Save"/>
                 </td>
             </tr>
         </table>
     </form>
 </div>
 </body>
+<script >
+    function checkNull() {
+        if (document.getElementById("name").value==""
+            ||document.getElementById("email").value==""
+            ||document.getElementById("country").value=="") {
+            alert("please fill the box!");
+        }
+    }
+</script>
+
 </html>
