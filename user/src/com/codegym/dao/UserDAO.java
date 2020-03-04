@@ -32,6 +32,7 @@ public class UserDAO implements IUserDAO {
             Class.forName("com.mysql.jdbc.Driver");
             connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
             System.out.println("connect done!");
+//            connection.setAutoCommit(false);// set Auto commit
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println("connect failed!");

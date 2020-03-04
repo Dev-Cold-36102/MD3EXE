@@ -30,6 +30,7 @@
         <span style="color: red" class="message">${requestScope["message"]}</span>
     </c:if>
 </p>
+
 <div align="center">
     <form method="post">
         <table border="1" cellpadding="5">
@@ -39,38 +40,31 @@
             <tr>
                 <th>User Name:</th>
                 <td>
-                    <input type="text" name="name" id="name" size="45"/>
+                    <input type="text" name="name" id="name" size="45" value="${requestScope["name"]}"/>
                 </td>
             </tr>
             <tr>
                 <th>User Email:</th>
                 <td>
-                    <input type="text" name="email" id="email" size="45"/>
+                    <input type="text" name="email" id="email" size="45" value="${requestScope["email"]}"/>
                 </td>
             </tr>
             <tr>
                 <th>Country:</th>
                 <td>
-                    <input type="text" name="country" id="country" size="15"/>
+                    <input type="text" name="country" id="country" size="15" value="${requestScope["country"]}"/>
                 </td>
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <input onclick="checkNull()" type="submit" value="Save"/>
+                    <input onclick="checkNull()" type="submit" value="Save" />
                 </td>
             </tr>
         </table>
     </form>
 </div>
+<script src="../js/checkNull.js"></script>
 </body>
-<script >
-    function checkNull() {
-        if (document.getElementById("name").value==""
-            ||document.getElementById("email").value==""
-            ||document.getElementById("country").value=="") {
-            alert("please fill the box!");
-        }
-    }
-</script>
+
 
 </html>

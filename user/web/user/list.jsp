@@ -21,6 +21,7 @@
             text-decoration: none;
         }
     </style>
+
 </head>
 <body>
     <h1>User Management</h1>
@@ -32,6 +33,7 @@
             <span style="color: red" class="message">${requestScope["message"]}</span>
         </c:if>
     </p>
+    <button onclick="check()">hello</button>
 <div align="center">
     <table border="1" cellpadding="5">
         <caption><h2>List of Users</h2></caption>
@@ -58,6 +60,5 @@
 </div>
 </body>
 <%--<script language='JavaScript'>alert("sgfdshgf");</script>--%>
-
-
+<%--<script src="../js/checkNull.js"></script>--%>
 </html>

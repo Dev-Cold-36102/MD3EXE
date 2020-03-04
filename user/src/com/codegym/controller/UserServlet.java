@@ -95,6 +95,9 @@ public class UserServlet extends HttpServlet {
         RequestDispatcher dispatcher = request.getRequestDispatcher("user/create.jsp");
         if (name.equals(String.valueOf(""))||email.equals(String.valueOf(""))||country.equals(String.valueOf(""))){
             System.out.println("no input");
+            request.setAttribute("name", name);
+            request.setAttribute("email", email);
+            request.setAttribute("country", country);
         } else {
             User newUser = new User(name, email, country);
             userDAO.insertUser(newUser);

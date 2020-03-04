@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb23bd99-1d4a-4158-9d83-b7ff3592d217" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../user/web/user/checkNull.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/com/codegym/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/com/codegym/controller/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/web/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../user/web/user/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/web/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../user/web/user/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/web/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../user/web/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/com/codegym/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/com/codegym/dao/UserDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +170,7 @@
       <workItem from="1583198037350" duration="2584000" />
       <workItem from="1583225268875" duration="702000" />
       <workItem from="1583247333696" duration="666000" />
-      <workItem from="1583278878950" duration="330000" />
+      <workItem from="1583278878950" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1583161409173</created>
